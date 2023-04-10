@@ -14,12 +14,12 @@ function isiRow(value) {
             .replace("#FAKULTAS#", value.mahasiswa.fakultas?value.mahasiswa.fakultas.nama:"#FAKULTAS#")
             .replace("#MATKUL#", value.mata_kuliah?value.mata_kuliah[0].nama:"#MATKUL#")
             .replace("#NILAI#", value.mata_kuliah?value.mata_kuliah[0].nilai:"#NILAI#")
-            .replace("#MATKUL#", value.mata_kuliah?value.mata_kuliah[1].nama:"#MATKUL1#")
-            .replace("#NILAI#", value.mata_kuliah?value.mata_kuliah[1].nilai:"#NILAI1#")
-            .replace("#MATKUL#", value.mata_kuliah?value.mata_kuliah[2].nama:"#MATKUL2#")
-            .replace("#NILAI#", value.mata_kuliah?value.mata_kuliah[2].nilai:"#NILAI2#")
-            .replace("#MATKUL#", value.mata_kuliah?value.mata_kuliah[3].nama:"#MATKUL3#")
-            .replace("#NILAI#", value.mata_kuliah?value.mata_kuliah[3].nilai:"#NILAI3#")
+            .replace("#MATKUL1#", value.mata_kuliah?value.mata_kuliah[1].nama:"#MATKUL1#")
+            .replace("#NILAI1#", value.mata_kuliah?value.mata_kuliah[1].nilai:"#NILAI1#")
+            .replace("#MATKUL2#", value.mata_kuliah?value.mata_kuliah[2].nama:"#MATKUL2#")
+            .replace("#NILAI2#", value.mata_kuliah?value.mata_kuliah[2].nilai:"#NILAI2#")
+            .replace("#MATKUL3#", value.mata_kuliah?value.mata_kuliah[3].nama:"#MATKUL3#")
+            .replace("#NILAI3#", value.mata_kuliah?value.mata_kuliah[3].nilai:"#NILAI3#")
             // .replace("#WARNA#", getRandomColor())
             // .replace(/#WARNALOGO#/g, getRandomColorName());
     addInner("iniTabel", content);
