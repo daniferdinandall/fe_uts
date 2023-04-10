@@ -39,7 +39,7 @@ export let isiTabel =
     </td>
 </tr>
 `
-export let isiDosenDosen =
+export let isiTabelDosen =
     `
 <tr class="border-b dark:border-neutral-500">
     <td class="whitespace-nowrap px-6 py-4">#KODE#</td>
@@ -47,3 +47,12 @@ export let isiDosenDosen =
     <td class="whitespace-nowrap px-6 py-4">#PHONE#</td>
 </tr>
 `
+export let isiTabelMatkul =
+    `
+    <tr class="border-b dark:border-neutral-500">
+    <td class="whitespace-nowrap px-6 py-4 font-medium">#KODE#</td>
+    <td class="whitespace-nowrap px-6 py-4">#NAMA#</td>
+    <td class="whitespace-nowrap px-6 py-4">#DOSEN#</td>
+    <td class="whitespace-nowrap px-6 py-4">#SKS#</td>
+  </tr>
+  `
