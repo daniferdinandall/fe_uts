@@ -5,7 +5,8 @@ export function isiTablePresensi(results) {
     results.forEach(isiRow);
 }
 function isiRow(value) {
-    // console.log(value)
+    console.log(value)
+    console.log(value.mata_kuliah?value.mata_kuliah[1].nama:"1")
     let content =
         isiTabel.replace("#NAMA#", value.mahasiswa.nama)
             .replace("#NPM#", value.mahasiswa.npm)
