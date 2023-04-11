@@ -1,4 +1,3 @@
-export let urlAPI = "https://ws-dani.herokuapp.com/dhs-all";
 export let urlAPIdhs = "https://ws-dani.herokuapp.com/dhs-all";
 export let urlAPImatkul = "https://ws-dani.herokuapp.com/matkul-all";
 export let urlAPIdosen = "https://ws-dani.herokuapp.com/dosen-all";
