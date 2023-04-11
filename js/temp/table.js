@@ -56,3 +56,13 @@ export let isiTabelMatkul =
     <td class="whitespace-nowrap px-6 py-4">#SKS#</td>
   </tr>
   `
+
+export let isiTabelMahasiswa = `
+<tr class="border-b dark:border-neutral-500">
+    <td class="whitespace-nowrap px-6 py-4 font-medium">#NPM#</td>
+    <td class="whitespace-nowrap px-6 py-4">#NAMA#</td>
+    <td class="whitespace-nowrap px-6 py-4">#FAKULTAS#</td>
+    <td class="whitespace-nowrap px-6 py-4">#PROGRAM_STUDI#</td>
+    <td class="whitespace-nowrap px-6 py-4">#DOSEN_WALI#</td>
+</tr>
+`
